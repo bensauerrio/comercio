@@ -22,31 +22,37 @@
 				<div class="row pt-4">
 					<div class="col-sm-4">
 						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">Minhas Compras</h5>
-								<p class="card-text">With supporting text below as a natural
-									lead-in to additional content.</p>
-								<a href="#" class="btn btn-success">Go somewhere</a>
+							<div class="card-body text-center">
+								<h5 class="card-title texto-cinza">Minhas Compras</h5>
+								<p class="card-text">
+									<img width="200px" alt="cart"
+										src="${pageContext.request.contextPath}/img/cart.png">
+								</p>
+								<a href="<c:url value='/ComprasSrv'></c:url>" class="btn btn-success">Continue</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">Gestão de Produtos</h5>
-								<p class="card-text">With supporting text below as a natural
-									lead-in to additional content.</p>
-								<a href="#" class="btn btn-success">Go somewhere</a>
+							<div class="card-body text-center">
+								<h5 class="card-title texto-cinza">Gestão de Produtos</h5>
+								<p class="card-text">
+									<img width="200px" alt="cart"
+										src="${pageContext.request.contextPath}/img/product.png">
+								</p>
+								<a href="#" class="btn btn-success">Continue</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-4">
 						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">Gestão de Usuários</h5>
-								<p class="card-text">With supporting text below as a natural
-									lead-in to additional content.</p>
-								<a href="#" class="btn btn-success">Go somewhere</a>
+							<div class="card-body text-center">
+								<h5 class="card-title texto-cinza">Gestão de Usuários</h5>
+								<p class="card-text">
+									<img width="200px" alt="cart"
+										src="${pageContext.request.contextPath}/img/user.jpg">
+								</p>
+								<a href="#" class="btn btn-success">Continue</a>
 							</div>
 						</div>
 					</div>
