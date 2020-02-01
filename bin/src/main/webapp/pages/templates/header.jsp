@@ -15,8 +15,10 @@
 <body>
 
 	<nav class="navbar navbar-light bg-dark">
-		<span class="navbar-header h1">
+		<span class="navbar-header ">
+			<h1>
 				<a class="nav-header" href="<c:url value='pages/home.jsp'/>">netshop</a>
+			</h1>
 
 		</span>
 

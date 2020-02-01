@@ -16,6 +16,9 @@
 			<div class="col-8">
 				<h4 class="mt-4 texto-cinza">Fazer Login</h4>
 
+				<div class="alert-danger mb-1" role="alert">
+					${requestScope.error}</div>
+
 				<form action="<c:url value='/UserSrv'/>" method="post">
 
 					<div class="form-group">
@@ -33,8 +36,13 @@
 					<button type="submit" class="btn btn-success">Continuar</button>
 
 				</form>
+				<div class="align-itens-center">
+					<a href="<c:url value='logon.jsp'/>" class="badge badge-light mt-4">
+						Clique aqui para novo cadastro </a>
 
+				</div>
 			</div>
+
 		</div>
 	</div>
 

@@ -14,9 +14,9 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-8">
-				<h4 class="mt-4 texto-cinza">Cadastro</h4>
+				<h4 class="mt-4 texto-cinza">Fazer Login</h4>
 
-				<form action="<c:url value='/UserSrv?action=new'/>" method="post">
+				<form action="<c:url value='/UserSrv'/>" method="post">
 
 					<div class="form-group">
 						<input type="text" name="login" id="login"
@@ -30,13 +30,15 @@
 
 					</div>
 
-					<button type="submit" class="btn btn-success">Cadastrar</button>
+					<button type="submit" class="btn btn-success">Continuar</button>
 
 				</form>
 
 			</div>
 		</div>
 	</div>
+
+
 
 </body>
 </html>

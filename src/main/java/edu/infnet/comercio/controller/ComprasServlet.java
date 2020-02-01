@@ -18,7 +18,7 @@ public class ComprasServlet extends HttpServlet {//para adicionar o serialVersio
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		req.getRequestDispatcher("pages/venda.jsp").forward(req, resp);
+		req.getRequestDispatcher("pages/catalogo.jsp").forward(req, resp);
 		
 
 	}

@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.nav-header{
+	color: white;
+}
+.bg-dark{
+    background-color: #28a745!important;
+}
+
+.texto-cinza{
+	color: #a29c9c;
+}
+
+.navbar-light .navbar-text a {
+    color: white;
+}
