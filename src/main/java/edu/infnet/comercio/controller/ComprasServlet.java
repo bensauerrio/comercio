@@ -34,7 +34,7 @@ public class ComprasServlet extends HttpServlet {//para adicionar o serialVersio
 		
 		List<Produto> produtos = dao.findAllProdutos();
 		req.setAttribute("lista_produto", produtos);
-		
+//fazer para casa a pagina de gestao de produto com a tabela usando bootstrap e o for each que foi usado na pagina de catalogo		
 		
 		req.getRequestDispatcher("pages/catalogo.jsp").forward(req, resp);
 		
