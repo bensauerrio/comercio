@@ -18,17 +18,22 @@
 		<div class="row justify-content-center">
 			<div class="col-10">
 				<div class="row pt-4">
-
+				
+				<c:forEach var="prod" items="${lista_produto}" >
+				
 					<div class="card m-2 p-2 text-center" style="width: 18rem;">
 						<img class="card-img-top" width="200px" alt="cart"
-							src="${pageContext.request.contextPath}/img/phone.jpg">
+							src="${pageContext.request.contextPath}/img/${prod.foto}">
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example text to build on the
-								card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-success">Go somewhere</a>
+							<h5 class="card-title">${prod.nome}</h5>
+							<p class="card-text">${prod.descricao}</p>
+							<h2>${prod.preco}</h2>
+							<a href="#" class="btn btn-success">Comprar</a>
 						</div>
 					</div>
+					
+				</c:forEach>
+				
 				
 				</div>
 			</div>
