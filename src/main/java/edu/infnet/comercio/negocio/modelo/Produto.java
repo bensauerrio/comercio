@@ -1,9 +1,17 @@
 package edu.infnet.comercio.negocio.modelo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Produto {
 
+	@Id
+	@GeneratedValue
 	private Integer id;
-
+	
+	//@Column(name="prd_nome")não precisa ser o mesmo nome do banco, pode usar esse artifício
 	private String nome;
 
 	private String descricao;
